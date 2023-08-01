@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M3D3</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@300&display=swap");
+
+      body {
+        background-color: #6a0dad;
+        color: #00e5ff;
+        font-family: "Ysabeau Office", sans-serif;
+      }
+      .card {
+        border: 0;
+      }
+      .table td,
+      tr {
+        color: black;
+        font-size: 1.4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Album Collection</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#fav-albums">Album Preferiti</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#worst-album">Peggior Album</a>
+            </li>
+            <!-- Aggiungi altri link se necessario -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Sezione Card Album -->
+    <div class="container mt-5">
+      <div class="row d-flex align-items-stretch">
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card h-100 bg-transparent">
+            <img src="Assest/Dire-straits.jpg" alt="Dire-straits" />
+            <div class="card-body">
+              <h5 class="card-title">Dire Straits</h5>
+              <p class="card-text">Dire Straits</p>
+              <p class="card-text">Rock</p>
+              <p class="card-text">20 minuti</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card h-100 bg-transparent">
+            <img src="Assest/Brothers-in-arms.jpg" alt="Dire-straits" />
+            <div class="card-body">
+              <h5 class="card-title">Brothers in arms</h5>
+              <p class="card-text">Dire Straits</p>
+              <p class="card-text">Rock</p>
+              <p class="card-text">20 minuti</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card h-100 bg-transparent">
+            <img src="Assest/Communiquè.jpg" alt="Dire-straits" />
+            <div class="card-body">
+              <h5 class="card-title">Communiquè</h5>
+              <p class="card-text">Dire Straits</p>
+              <p class="card-text">Rock</p>
+              <p class="card-text">20 minutes</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card h-100 bg-transparent">
+            <img src="Assest/Love-over-gold.jpg" alt="Dire-straits" />
+            <div class="card-body">
+              <h5 class="card-title">Love over gold</h5>
+              <p class="card-text">Dire Straits</p>
+              <p class="card-text">Rock</p>
+              <p class="card-text">20 minuti</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card h-100 bg-transparent">
+            <img src="Assest/Making-movies.png" alt="Dire-straits" />
+            <div class="card-body">
+              <h5 class="card-title">Making movies</h5>
+              <p class="card-text">Dire Straits</p>
+              <p class="card-text">Rock</p>
+              <p class="card-text">20 minuti</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card h-100 bg-transparent">
+            <img src="Assest/On-every-streets.jpg" alt="Dire-straits" />
+            <div class="card-body">
+              <h5 class="card-title">On every streets</h5>
+              <p class="card-text">Dire Straits</p>
+              <p class="card-text">Rock</p>
+              <p class="card-text">20 minti</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card h-100 bg-transparent">
+            <img
+              src="Assest/Alchemy-Dire Straits Live.jpeg"
+              alt="Dire-straits"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Alchemy</h5>
+              <p class="card-text">Dire Straits</p>
+              <p class="card-text">Rock</p>
+              <p class="card-text">20 minti</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card h-100 bg-transparent">
+            <img src="Assest/On the Night.jpeg" alt="Dire-straits" />
+            <div class="card-body">
+              <h5 class="card-title">On the Night</h5>
+              <p class="card-text">Dire Straits</p>
+              <p class="card-text">Rock</p>
+              <p class="card-text">20 minti</p>
+            </div>
+          </div>
+        </div>
+        <!-- Ripeti il blocco .col per ogni album nella lista -->
+      </div>
+    </div>
+
+    <!-- Sezione Album Preferiti Responsive -->
+    <section class="container mt-5" id="fav-albums">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="Assest/Brothers-in-arms.jpg"
+            class="img-fluid"
+            alt="Album Details"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h2 class="font-weight-bold">Brothers in Arms</h2>
+          <p class="font-weight-bold">Dire Straits</p>
+          <p class="font-weight-bold">Rock</p>
+          <p class="font-weight-bold">1985</p>
+          <h3 class="font-weight-bold">Tracce dell'Album</h3>
+          <table class="table">
+            <thead>
+              <tr class="font-weight-bold">
+                <th scope="col">#</th>
+                <th scope="col">Titolo Traccia</th>
+                <!-- Aggiungi altre colonne se necessario -->
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td class="font-weight-bold">Water of Love</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td class="font-weight-bold">Sultans of Swing</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td class="font-weight-bold">Down to the Waterline</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td class="font-weight-bold">Lions</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td class="font-weight-bold">Six Blade Knife</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td class="font-weight-bold">In the Gallery</td>
+              </tr>
+
+              <!-- Ripeti la riga per ogni traccia dell'album -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sezione Peggior Album -->
+    <section class="container mt-5" id="worst-album">
+      <div class="row">
+        <div class="col-lg-6">
+          <img
+            src="Assest/On-every-streets.jpg"
+            class="img-fluid"
+            alt="Album Details"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h2 class="font-weight-bold">On every streets</h2>
+          <p class="font-weight-bold">Dire Straits</p>
+          <p class="font-weight-bold">Rock</p>
+          <p class="font-weight-bold">1991</p>
+          <h3 class="font-weight-bold">Tracce dell'Album</h3>
+          <table class="table">
+            <thead>
+              <tr class="font-weight-bold">
+                <th scope="col">#</th>
+                <th scope="col">Titolo Traccia</th>
+                <!-- Aggiungi altre colonne se necessario -->
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td class="font-weight-bold">Fade to Black</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td class="font-weight-bold">Calling Elvis</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td class="font-weight-bold">The Bug</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td class="font-weight-bold">My Parties</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td class="font-weight-bold">On every streets</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td class="font-weight-bold">Planet of new Orleans</td>
+              </tr>
+
+              <!-- Ripeto la riga per ogni traccia dell'album -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Script jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Script Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
+  </body>
+</html>
